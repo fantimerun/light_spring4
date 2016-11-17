@@ -18,7 +18,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = {BeanConfiguration.class})
-@ActiveProfiles("dev")
+@ActiveProfiles("test")
 public class TestHello {
     @Autowired
     HelloService helloService;
